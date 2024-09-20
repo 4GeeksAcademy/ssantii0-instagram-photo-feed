@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    background-color: gainsboro;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.padre{
+    width: 700px;
+    height: 590px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.titulo{
+    width: 700px;
+    height: 50px; 
+    display: flex;
+}
+
+.nombre{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;  
+}
+
+.fecha{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    color: gray;
+    align-items: center;   
+}
+
+.foto{
+    width: 700px;
+    height: 500px;  
+}
+
+.descripcion{
+    width: 700px;
+    height: 30px;  
+}
+
+.edicion{
+    width: 700px;
+    height: 500px;
+}
+
